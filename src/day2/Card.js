@@ -9,5 +9,5 @@ const Card = ({file,title})=>{
             </div>
         </div>
     )
-};
+}
 export default Card;
