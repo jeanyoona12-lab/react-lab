@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+*{ 
+    margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    height: 100vh;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.card-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
