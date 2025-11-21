@@ -1,11 +1,14 @@
-const Props = (props)=>{
-    console.log (props.user);
+const Props = ({idx,text,text_2,text_3})=>{
+    
     return (
         <div className="card">
-            <img src="./image/img-01.png"/>
-            <h2>홍길동</h2>
-            <p>우리의 영웅</p>
+            <h1>{text}</h1>
+            <p>{text_2}</p>
+            <p className="cap">{text_3}</p>
+            <img src={`/image/img-0${idx}.png`} />
         </div>
     );
 }
+
+
 export default Props;
